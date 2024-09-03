@@ -1,0 +1,118 @@
+.search {
+    margin: 20px;
+    text-align: center;
+}
+
+.search input:hover {
+    border: 1px solid #007bff;
+    padding: 10px;
+
+}
+
+.search input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table tbody td {
+    padding: 12px;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: middle;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.medicinePhoto {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ratingIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.ratingIcon:hover {
+    filter: brightness(0.8);
+}
+
+.ratingButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.ratingIcon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.ratingIcon:hover {
+    transform: scale(1.1);
+}
+
+.starRating {
+    display: flex;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 20px;
+    color: lightgray;
+    transition: color 0.3s ease;
+}
+
+.star.filled {
+    color: gold;
+}
